@@ -1,12 +1,12 @@
+import { useRoutes } from 'react-router-dom'
+
+import router from './router'
+
 import './App.css'
-import { Button } from 'antd'
 
 function App() {
-  return (
-    <div className="App">
-      <Button type="primary">哈哈</Button>
-    </div>
-  )
+  const element = useRoutes(router)
+  return element
 }
 
 export default App
