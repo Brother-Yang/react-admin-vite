@@ -1,16 +1,10 @@
-import styled from 'styled-components'
 import './App.css'
-
-const Button = styled.div`
-  background: red;
-  width: 200rem;
-  padding: 10rem;
-`
+import { Button } from 'antd'
 
 function App() {
   return (
     <div className="App">
-      <Button>哈哈</Button>
+      <Button type="primary">哈哈</Button>
     </div>
   )
 }
